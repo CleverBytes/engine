@@ -35,7 +35,7 @@ static void TestNotEquals(T& source1, U& source2, const std::string& label) {
   ASSERT_TRUE(NotEquals(&source1, &source2));
   ASSERT_TRUE(NotEquals(&source2, &source1));
 }
-
+#include "flutter/display_list/utils/dl_comparable.h"
 }  // namespace testing
 }  // namespace flutter
 
